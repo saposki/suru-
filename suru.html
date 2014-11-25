@@ -1,0 +1,65 @@
+<!-- ckrob.com/solutions/suru 
+   v2.0 | 20130628
+   License: none (public domain)
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SURU LANDING</title>
+
+<![if IE]>
+    <link href="ff_style.css" rel="stylesheet" type="text/css">
+<![endif] >
+
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+
+<script language="javascript" >
+
+function check_form()
+{
+	 first_name = document.sendemail.first_name.value;
+	 email_address = document.sendemail.email_address.value;
+	
+	if (email_address.indexOf("@") == "-1" || first_name == "")
+	{
+		alert("Fill in the form properly dude");
+		return false;
+	}
+	else
+	{
+		alert("Correct! You SURU!");
+		return true;
+	}
+	
+}
+
+</script>
+
+
+</head>
+
+<div id="container">
+<div id="box">
+
+<form action="http://wwww.suruclothing.com" method="post" name="sendemail" target="_self" onsubmit="return check_form()">
+<div id="name"><input name="first_name" type="text" value="" size="40" placeholder="name"/><p></div>
+<div id="email"><input name="email_address" type="text" size="40" placeholder="email"/><p></div>
+
+<!-- <input type="reset" /> -->
+<div id="submit"><input name="" type="image" src="images/suruSubmit.png" style="" /></div>
+
+
+
+<!-- <input name="first" type="text" > -->
+<!-- <input type="submit" value="Submit"> -->
+</form>
+
+
+</div> <!-- end box -->
+</div> <!-- end container div -->	
+</body>
+</html>
+
+
+

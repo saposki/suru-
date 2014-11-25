@@ -1,0 +1,74 @@
+<style>
+	
+
+body 
+{
+	clear: both;
+	//background-color: #fbaf42;
+    background-image:url("../images/suruLanding.png");
+    //background-size: 8px 6px;
+
+}
+
+#container
+{
+	width:960px;
+	height:633px;
+	margin-left:auto;
+	margin-right:auto;
+	position: relative;
+	background-image:url("../images/suru.jpg");
+	//border: 1px solid black;
+	
+}
+
+#box
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    height:55%;
+    width:40%;
+    margin: -15% 0 0 -20%;
+    background-image:url("../images/suruLanding.png");
+    background-position: top;
+    background-size: 400px 350px;
+    border-radius:15px;
+    
+
+}
+
+#submit
+{
+	top:75%;
+	width:150px;
+	margin: 15% 0 0 30%;	
+	position: absolute;
+	
+}
+
+
+#name 
+{
+	position:absolute;
+	top:55%;
+	left:50%;
+	height:50%;
+	width:50%;
+	margin: 15% 0 0 -40%;
+	
+}
+
+
+#email
+{
+	position:absolute;
+	top:65%;
+	left:50%;
+	height:50%;
+	width: 50%;
+	margin: 15% 0 0 -30%;
+}
+
+
+</style>
